@@ -1,0 +1,27 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  profiles:
+    active: native
+
+  main:
+    banner-mode: off
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:/config
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+  endpoint:
+    health:
+      show-details: always

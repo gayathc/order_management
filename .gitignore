@@ -1,0 +1,191 @@
+############################################################
+# Maven
+############################################################
+
+target/
+*/target/
+
+# Maven generated files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven timing
+.mvn/timing.properties
+
+
+############################################################
+# IntelliJ IDEA
+############################################################
+
+.idea/
+
+# IntelliJ module/project files
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ output
+out/
+
+# IntelliJ generated modules
+.idea_modules/
+
+# IntelliJ HTTP client private environment
+http-client.private.env.json
+
+# IntelliJ user-specific files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/shelf/
+
+# IntelliJ generated/cache files
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# IntelliJ SonarLint
+.idea/sonarlint/
+.idea/sonarlint.xml
+
+# IntelliJ HTTP requests
+.idea/httpRequests/
+
+# IntelliJ caches
+.idea/caches/
+
+
+############################################################
+# Eclipse
+############################################################
+
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated/
+bin/
+
+
+############################################################
+# VS Code
+############################################################
+
+.vscode/
+
+
+############################################################
+# Java
+############################################################
+
+*.class
+*.log
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Java temporary files
+*.ctxt
+.mtj.tmp/
+
+
+############################################################
+# Spring Boot
+############################################################
+
+# Spring Boot generated logs
+spring.log
+
+
+############################################################
+# Environment / Secrets
+############################################################
+
+#.env
+#.env.*
+#!.env.example
+
+# Local application configuration containing secrets
+application-local.yml
+application-local.yaml
+
+# Don't commit credentials
+*.pem
+*.key
+*.p12
+*.jks
+
+
+############################################################
+# Docker
+############################################################
+
+# Docker local override files
+docker-compose.override.yml
+
+# Docker environment files
+docker.env
+
+
+############################################################
+# Operating System
+############################################################
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.nfs*
+
+
+############################################################
+# Temporary / backup files
+############################################################
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+
+############################################################
+# Node / Frontend
+############################################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

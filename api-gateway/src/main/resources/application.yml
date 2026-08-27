@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: API-GATEWAY
+  config:
+    import: configserver:http://localhost:8088
+  main:
+    banner-mode: off

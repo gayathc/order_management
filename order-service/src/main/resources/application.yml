@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ORDER-SERVICE
+  config:
+    import: optional:configserver:http://localhost:8088
+  main:
+    banner-mode: off
