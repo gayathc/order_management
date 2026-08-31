@@ -43,7 +43,7 @@ services:
     environment:
       SPRING_PROFILES_ACTIVE: native,docker
     volumes:
-    - ./config:/config
+    - ./config-server/src/main/resources/config:/config
     depends_on:
       discovery-server:
         condition: service_healthy

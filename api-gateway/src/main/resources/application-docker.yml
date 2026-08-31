@@ -1,10 +1,5 @@
 spring:
   application:
     name: API-GATEWAY
-  config:
-    activate:
-      on-profile: docker
-    import: configserver:http://config-server:8088
   main:
     banner-mode: off
-
